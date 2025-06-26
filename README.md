@@ -51,7 +51,10 @@ http://zonaderegistrosenlineabnweb1.com/BNWeb/lnicio/	benign
 During pre-training, you can run the following command in the terminal:
 
 ``` 
-python main_multiple.py // multiple GPUs needed
+## Stage 1:
+python main_stage_1.py // multiple GPUs needed
+## Stage 2:
+python main_stage_2.py // multiple GPUs needed
 ```
 
 You can set the training hyperparameters in `options.py` to facilitate personalized pre-training.
